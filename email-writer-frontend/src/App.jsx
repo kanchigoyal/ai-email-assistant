@@ -16,7 +16,7 @@ function App() {
     setLoading(true);
     setError('');
     try{
-      const response = await axios.post("http://localhost:8080/api/email/generate",{emailContent,tone});
+      const response = await axios.post("https://ai-email-assistant-j1eb.onrender.com/api/email/generate",{emailContent,tone});
       setGeneratedReply(typeof response.data === 'string' ? response.data : JSON.stringify(response.data));
     }catch (error){
       setError('Failed to generate reply. Please try again.');
