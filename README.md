@@ -19,7 +19,7 @@ The idea is simple — instead of writing every email reply from scratch, the ap
 - Takes the content of an email
 - Generates a reply using Gemini
 - Provides a simple React interface
-- Connects the frontend with a Spring Boot REST API<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/861a6432-c4a6-4b4a-a8b2-d3f818cca789" />
+- Connects the frontend with a Spring Boot REST API
 
 - Includes a Chrome extension for using the assistant inside Gmail
 
